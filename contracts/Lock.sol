@@ -25,4 +25,9 @@ contract Lock {
 
         owner.transfer(address(this).balance);
     }
+
+    function getUnlockTime() public view returns(uint) {
+        require(msg.sender == owner, "You aren't the owner"); 
+        return unlockTime;
+    }
 }
