@@ -1,6 +1,8 @@
 # Scroll Contract Deployment Demo
 
-This project demonstrates how to use hardhat or foundry to deploy a contract in Scroll's rollup network. This project contains a simple contract that will lock a certain amount of Ether in the deployed contract for a specified amount of time.
+This is a Scaling Ethereum 2023 hackathon repository. The intention behind it was to get familiar with the Scroll documentation and deploy a trivial code sample. A Scroll [example](https://github.com/scroll-tech/scroll-contract-deploy-demo) has been used for educational purposes.
+
+The following documentation belongs to the original example's README.
 
 
 ## Prerequisites
